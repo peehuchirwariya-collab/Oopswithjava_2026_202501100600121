@@ -1,0 +1,32 @@
+Multithread - Thread is a light weight process sharing cord,data and address space .
+as Multiple thread of a process are running parallely accessing common data ,it may cause inconsistency. so all 
+threads should be sinchronization.
+Sinchronization - 1.Mutual Exclusion(synchronised keyword), 2. Inter thread communication.
+Ques. How to create a thread?
+Ans -  A thread is created by two ways 
+   1.Extending thread class.
+        // class MyThread extendes thread {
+        //     public void run(){
+
+        //     }
+        // }
+        // public static void main(){
+        //     MyThread t1 = new MyThread();
+        //      t1 = start();
+        // }
+   2.Implimenting runable interface.
+            // class MyThread impliment runable{
+            //     public void run(){
+
+            //     }
+            // }
+            // public static void main(){
+            //     MyThread t1 = new MyThread;
+            //     Thread thread1 = new Thread(t1);
+            //      thread1.start();
+            // }
+           Set thread -  there is a method set priority to asign priority to a thread priority
+                          level very strond 1-10. there are three predfine macrones for priority level
+                          ThreadMAX_PRIORITY//10
+                          ThreadMIN_PRIORITY//1
+                          ThreadNORM_PRIORITY//5

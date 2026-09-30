@@ -1,0 +1,36 @@
+9-9-2026 
+
+ABSTRACTION
+implementation ko hide kr dena 
+no bodies should be there 
+abtract class or interfaces
+Abstraction is a concept to hide implementation of a method.
+It can be implemented using abstract class and interfaces 
+    Abstract class contains common properties 
+           common properties 
+           IS - A relationship
+           extends 
+           cruly braces nhi dene hote 
+           does not support multiple inheritance 
+
+           an abstract class may have variables , abstract methods and concrete methods(method with body)
+
+    Interfaces are used to show capabilities 
+          capability 
+          HA- 5 - A
+          implement
+          supports multiple inheritance 
+          public , static & final 
+
+         IMP !!!  An interface class may have variables , abstract method and concete methods which are either default or static .
+                Interface are more intelligent
+                default void display() {
+                    sop("");
+                } 
+                static void volume() {
+                    sop("");
+                } 
+WAP 
+
+// camera has HAS - A , implements 
+// c:\Users\goel2\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\8B1C4987D338743B3F44B6D42A78C6258EC325D5\transfers\2026-37\WhatsApp Image 2026-09-09 at 3.38.39 PM.jpeg

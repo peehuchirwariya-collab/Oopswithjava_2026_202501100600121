@@ -1,0 +1,4 @@
+User define exceptions  are created by  inheriting either exception class(for checked exception)
+or run time exception class (for unchecked exception)
+Define that user define exception class by creating its constructor and calling its super class construction
+inside it.
