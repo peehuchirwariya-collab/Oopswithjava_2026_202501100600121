@@ -62,3 +62,20 @@ public class Main {
         System.out.println("Students sorted by marks descending then roll no ascending: " + students);
     }
 }
+
+class CustomComparator implements Comparator<Student>{
+    @Override 
+    public int compare(Student s1, Student s2){
+        if(o1.marks != o2.marks){
+            return o2.marks - o1.marks;
+        }
+        return o1.rollNo - o2.rollNo;
+    }
+}
+
+class NameComparator implements Comparator<Student> {
+    @Override
+    public int compare(Student s1, Student s2) {
+        return s1.name.compareTo(s2.name);
+    }
+}
